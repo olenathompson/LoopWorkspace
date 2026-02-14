@@ -233,7 +233,7 @@ jobs:
           git commit -m "Added 15 minute remote password patches"
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
-          dexcom_upload_readings \
+  
           future_carbs_4h \
           override_sens \
           now_line \
@@ -242,7 +242,7 @@ jobs:
           meal_days \
           profiles \
           basal_lock \
-          live_activity \
+          
           negative_insulin
 
           # the final customization listed above CANNOT have a continuation character
